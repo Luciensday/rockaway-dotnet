@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rockaway.Webapp", "Rockaway.WebApp\Rockaway.Webapp.csproj", "{E6075DB6-D8D7-4A04-B118-D8C9390DF1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rockaway.WebApp.Tests", "Rockaway.WebApp.Tests\Rockaway.WebApp.Tests.csproj", "{588510CF-BC8F-4EFC-B0E5-D81629D8C265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6075DB6-D8D7-4A04-B118-D8C9390DF1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6075DB6-D8D7-4A04-B118-D8C9390DF1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6075DB6-D8D7-4A04-B118-D8C9390DF1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6075DB6-D8D7-4A04-B118-D8C9390DF1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588510CF-BC8F-4EFC-B0E5-D81629D8C265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588510CF-BC8F-4EFC-B0E5-D81629D8C265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588510CF-BC8F-4EFC-B0E5-D81629D8C265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588510CF-BC8F-4EFC-B0E5-D81629D8C265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
