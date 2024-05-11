@@ -28,3 +28,4 @@
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/obj/Debug/net8.0/Rockaway.Webapp.pdb
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/obj/Debug/net8.0/Rockaway.Webapp.genruntimeconfig.cache
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/obj/Debug/net8.0/ref/Rockaway.Webapp.dll
+/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/obj/Debug/net8.0/Rockaway.Webapp.sourcelink.json
