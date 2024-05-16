@@ -13,6 +13,7 @@
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/obj/Debug/net8.0/Rockaway.Webapp.MvcApplicationPartsAssemblyInfo.cache
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/obj/Debug/net8.0/Rockaway.Webapp.RazorAssemblyInfo.cache
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/obj/Debug/net8.0/Rockaway.Webapp.RazorAssemblyInfo.cs
+/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/obj/Debug/net8.0/Rockaway.Webapp.sourcelink.json
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/obj/Debug/net8.0/staticwebassets.build.json
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/obj/Debug/net8.0/staticwebassets.development.json
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/obj/Debug/net8.0/staticwebassets/msbuild.Rockaway.Webapp.Microsoft.AspNetCore.StaticWebAssets.props
@@ -28,4 +29,3 @@
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/obj/Debug/net8.0/Rockaway.Webapp.pdb
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/obj/Debug/net8.0/Rockaway.Webapp.genruntimeconfig.cache
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/obj/Debug/net8.0/ref/Rockaway.Webapp.dll
-/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/obj/Debug/net8.0/Rockaway.Webapp.sourcelink.json
