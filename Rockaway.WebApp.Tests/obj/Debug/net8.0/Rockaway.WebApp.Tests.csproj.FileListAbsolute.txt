@@ -1,11 +1,4 @@
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_Rockaway.WebApp.Tests
-/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.csproj.AssemblyReference.cache
-/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/MvcTestingAppManifest.json
-/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
-/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.AssemblyInfoInputs.cache
-/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.AssemblyInfo.cs
-/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.csproj.CoreCompileInputs.cache
-/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.sourcelink.json
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/bin/Debug/net8.0/Rockaway.Webapp.deps.json
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/bin/Debug/net8.0/Rockaway.Webapp.runtimeconfig.json
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/bin/Debug/net8.0/appsettings.Development.json
@@ -455,6 +448,13 @@
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Management.dll
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/bin/Debug/net8.0/Rockaway.Webapp.dll
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/bin/Debug/net8.0/Rockaway.Webapp.pdb
+/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.csproj.AssemblyReference.cache
+/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/MvcTestingAppManifest.json
+/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.AssemblyInfoInputs.cache
+/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.AssemblyInfo.cs
+/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.csproj.CoreCompileInputs.cache
+/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.sourcelink.json
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.096FFE19.Up2Date
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/Rockaway.WebApp.Tests.dll
 /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp.Tests/obj/Debug/net8.0/refint/Rockaway.WebApp.Tests.dll
