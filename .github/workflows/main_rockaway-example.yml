@@ -14,28 +14,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+    - name: Checkout code
+      uses: actions/checkout@v4
 
-      - name: Set up .NET Core
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '8.x'
-        
+    - name: Set up .NET Core
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.x'
 
-      - name: Build with dotnet
-        run: dotnet build --configuration Release
-        
-      - name: Test with dotnet test
-        run: dotnet test
+    - name: Install dependencies
+      run: dotnet restore
 
-      - name: dotnet publish
-        run: dotnet publish Rockaway.WebApp -c Release -o $/myapp
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
+      continue-on-error: false
 
-      - name: Upload artifact for deployment job
-        uses: actions/upload-artifact@v3
-        with:
-          name: .net-app
-          path: $/myapp
+    - name: Test with dotnet
+      run: dotnet test
+      continue-on-error: false
+
+    - name: Publish with dotnet
+      run: dotnet publish Rockaway.WebApp -c Release -o $/myapp
+      continue-on-error: false
+
+    - name: Upload artifact for deployment job
+      uses: actions/upload-artifact@v3
+      with:
+        name: .net-app
+        path: $/myapp
 
   deploy:
     runs-on: ubuntu-latest
@@ -43,18 +49,18 @@ jobs:
     environment:
       name: 'Production'
       url: $
-
     steps:
-      - name: Download artifact from build job
-        uses: actions/download-artifact@v3
-        with:
-          name: .net-app
+    - name: Download artifact from build job
+      uses: actions/download-artifact@v3
+      with:
+        name: .net-app
 
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: 'rockaway'
-          slot-name: 'Production'
-          publish-profile: $
-          package: .
+    - name: Deploy to Azure Web App
+      id: deploy-to-webapp
+      uses: azure/webapps-deploy@v3
+      with:
+        app-name: 'rockaway'
+        slot-name: 'Production'
+        publish-profile: $
+        package: .
+
