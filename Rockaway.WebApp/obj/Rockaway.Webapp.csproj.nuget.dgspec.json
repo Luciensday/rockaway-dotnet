@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.Webapp.csproj": {}
+    "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.WebApp.csproj": {}
   },
   "projects": {
-    "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.Webapp.csproj": {
+    "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.Webapp.csproj",
-        "projectName": "Rockaway.Webapp",
-        "projectPath": "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.Webapp.csproj",
+        "projectUniqueName": "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.WebApp.csproj",
+        "projectName": "Rockaway.WebApp",
+        "projectPath": "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.WebApp.csproj",
         "packagesPath": "/Users/lucien/.nuget/packages/",
         "outputPath": "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/obj/",
         "projectStyle": "PackageReference",

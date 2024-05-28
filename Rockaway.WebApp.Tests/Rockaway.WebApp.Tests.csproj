@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Rockaway.WebApp\Rockaway.Webapp.csproj" />
+    <ProjectReference Include="..\Rockaway.WebApp\Rockaway.WebApp.csproj" />
   </ItemGroup>
 
 </Project>

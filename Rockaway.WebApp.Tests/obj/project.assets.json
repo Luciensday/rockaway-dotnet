@@ -1296,14 +1296,14 @@
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
       },
-      "Rockaway.Webapp/1.0.0": {
+      "Rockaway.WebApp/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Rockaway.Webapp.dll": {}
+          "bin/placeholder/Rockaway.WebApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Rockaway.Webapp.dll": {}
+          "bin/placeholder/Rockaway.WebApp.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -3234,10 +3234,10 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "Rockaway.Webapp/1.0.0": {
+    "Rockaway.WebApp/1.0.0": {
       "type": "project",
-      "path": "../Rockaway.WebApp/Rockaway.Webapp.csproj",
-      "msbuildProject": "../Rockaway.WebApp/Rockaway.Webapp.csproj"
+      "path": "../Rockaway.WebApp/Rockaway.WebApp.csproj",
+      "msbuildProject": "../Rockaway.WebApp/Rockaway.WebApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3245,7 +3245,7 @@
       "AngleSharp >= 1.1.2",
       "Microsoft.AspNetCore.Mvc.Testing >= 8.0.1",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
-      "Rockaway.Webapp >= 1.0.0",
+      "Rockaway.WebApp >= 1.0.0",
       "Shouldly >= 4.2.1",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.6.6",
@@ -3277,8 +3277,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.Webapp.csproj": {
-              "projectPath": "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.Webapp.csproj"
+            "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.WebApp.csproj": {
+              "projectPath": "/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Rockaway.WebApp.csproj"
             }
           }
         }
