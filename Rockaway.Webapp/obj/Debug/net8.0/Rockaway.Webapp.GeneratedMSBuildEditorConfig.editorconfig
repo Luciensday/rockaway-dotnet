@@ -18,30 +18,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/Pages/Error.cshtml]
+[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/Pages/Index.cshtml]
+[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/Pages/Privacy.cshtml]
+[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/Pages/_ViewImports.cshtml]
+[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/Pages/_ViewStart.cshtml]
+[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.Webapp/Pages/Shared/_Layout.cshtml]
+[/Users/lucien/Desktop/lucien-webpage/Rockaway/Rockaway.WebApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-npvvy3yo8e
