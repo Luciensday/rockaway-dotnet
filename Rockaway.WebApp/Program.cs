@@ -25,6 +25,7 @@ app.MapRazorPages();
 app.MapGet("/status", (IStatusReporter reporter) => reporter.GetStatus());
 app.Run();
 
+
 // //Below line are to customise Log info
 // app.Logger.LogTrace("This is a TRACE message.");
 // app.Logger.LogDebug("This is a DEBUG message.");

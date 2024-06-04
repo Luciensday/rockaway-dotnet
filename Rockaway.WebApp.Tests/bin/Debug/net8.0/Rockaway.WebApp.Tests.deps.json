@@ -39,7 +39,7 @@
           "AngleSharp": "1.1.2",
           "Microsoft.AspNetCore.Mvc.Testing": "8.0.1",
           "Microsoft.NET.Test.Sdk": "17.8.0",
-          "Rockaway.Webapp": "1.0.0",
+          "Rockaway.WebApp": "1.0.0",
           "Shouldly": "4.2.1",
           "coverlet.collector": "6.0.0",
           "xunit": "2.6.6",
@@ -1062,12 +1062,12 @@
         }
       },
       "xunit.runner.visualstudio/2.5.6": {},
-      "Rockaway.Webapp/1.0.0": {
+      "Rockaway.WebApp/1.0.0": {
         "runtime": {
-          "Rockaway.Webapp.dll": {}
+          "Rockaway.WebApp.dll": {}
         },
         "compile": {
-          "Rockaway.Webapp.dll": {}
+          "Rockaway.WebApp.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/8.0.0.0": {
@@ -3290,7 +3290,7 @@
       "path": "xunit.runner.visualstudio/2.5.6",
       "hashPath": "xunit.runner.visualstudio.2.5.6.nupkg.sha512"
     },
-    "Rockaway.Webapp/1.0.0": {
+    "Rockaway.WebApp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
