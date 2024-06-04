@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Rockaway.Webapp")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Rockaway.WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+feef692e0d9463d8caf415842ef822570dda80b1")]
-[assembly: System.Reflection.AssemblyProductAttribute("Rockaway.Webapp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Rockaway.Webapp")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb6abeb5fcdffa259a7449c156a935deb40f191e")]
+[assembly: System.Reflection.AssemblyProductAttribute("Rockaway.WebApp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Rockaway.WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.CompilerServices.InternalsVisibleTo("Rockaway.WebApp.Tests")]
 
