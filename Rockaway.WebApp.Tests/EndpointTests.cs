@@ -36,6 +36,7 @@ namespace Rockaway.WebApp.Tests {
 				}));
 			using var client = factory.CreateClient();
 			var json = await client.GetStringAsync("/status");
+			Console.WriteLine("Response from /status endpoint: " + json);  // Output the response to the console
 			var status = JsonSerializer.Deserialize<ServerStatus>(json, jsonSerializerOptions);
 			status.ShouldNotBeNull();
 			status.ShouldBeEquivalentTo(testStatus);
