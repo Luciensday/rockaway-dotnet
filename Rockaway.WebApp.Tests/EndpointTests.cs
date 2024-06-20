@@ -11,7 +11,9 @@ namespace Rockaway.WebApp.Tests {
 		public async Task Status_Endpoint_Works() {
 			await using var factory = new WebApplicationFactory<Program>();
 			var client = factory.CreateClient();
+
 			var result = await client.GetAsync("/status");
+			
 			result.EnsureSuccessStatusCode();
 		}
 		
@@ -21,13 +23,13 @@ namespace Rockaway.WebApp.Tests {
 			Assembly = "TEST_ASSEMBLY",
 			Modified = new DateTimeOffset(2021, 2, 3, 4, 5, 6, TimeSpan.Zero).ToString("O"),
 			Hostname = "TEST_HOST",
-			DateTime = new DateTimeOffset(2022, 3, 4, 5, 6, 7, TimeSpan.Zero).ToString("O")
+			DateTime = new DateTimeOffset(2022, 3, 4, 5, 6, 7, TimeSpan.Zero).ToString("O"),
+			Uptime = "0:00:00"  // Adjust as needed for testing
 		};
 
 		private class TestStatusReporter : IStatusReporter {
 			public ServerStatus GetStatus() => testStatus;
 		}
-
 		[Fact]
 		public async Task Status_Endpoint_Returns_Status() {
 			await using var factory = new WebApplicationFactory<Program>()
@@ -41,5 +43,36 @@ namespace Rockaway.WebApp.Tests {
 			status.ShouldNotBeNull();
 			status.ShouldBeEquivalentTo(testStatus);
 		}
+		[Fact]
+        public async Task Uptime_Endpoint_Returns_Uptime()
+        {
+            var fakeStartTime = DateTime.UtcNow.AddSeconds(-120); // Mock 2 minutes of uptime
+            await using var factory = new WebApplicationFactory<Program>()
+                .WithWebHostBuilder(builder => builder.ConfigureServices(services => {
+                    services.AddSingleton<IStatusReporter>(new StatusReporter(fakeStartTime));
+                }));
+            using var client = factory.CreateClient();
+            var result = await client.GetStringAsync("/uptime");
+            var uptimeInSeconds = int.Parse(result);
+			Console.WriteLine("uptime: " + result);  
+            uptimeInSeconds.ShouldBeGreaterThan(0);  // Verify uptime is greater than 0 seconds
+            uptimeInSeconds.ShouldBeGreaterThan(119);  // Verify uptime is greater than 119 seconds
+        }
+
+
+		[Fact]
+        public async Task Uptime_Endpoint_Returns_Uptime_In_Seconds()
+        {
+            var fakeStartTime = DateTime.UtcNow.AddSeconds(-120); // Mock 2 minutes of uptime
+            await using var factory = new WebApplicationFactory<Program>()
+                .WithWebHostBuilder(builder => builder.ConfigureServices(services => {
+                    services.AddSingleton<IStatusReporter>(new StatusReporter(fakeStartTime));
+                }));
+            using var client = factory.CreateClient();
+            var result = await client.GetStringAsync("/uptime");
+            var uptimeInSeconds = int.Parse(result);
+            uptimeInSeconds.ShouldBeGreaterThan(0);  // Verify uptime is greater than 0 seconds
+            uptimeInSeconds.ShouldBeGreaterThan(119);  // Verify uptime is greater than 119 seconds
+        }
 	}
 }

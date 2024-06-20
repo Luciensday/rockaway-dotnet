@@ -5,4 +5,5 @@ public class ServerStatus {
 	public string Modified { get; set; } = String.Empty;
 	public string Hostname { get; set; } = String.Empty;
 	public string DateTime { get; set; } = String.Empty;
+	public string Uptime { get; set; } = string.Empty;  // Add this line
 }

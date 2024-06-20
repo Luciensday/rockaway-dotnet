@@ -9,9 +9,10 @@ builder.Services.Configure<RouteOptions>(options => options.LowercaseUrls = true
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment()) {
-	app.UseExceptionHandler("/Error");
-	app.UseHsts();
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Error");
+    app.UseHsts();
 }
 
 app.UseHttpsRedirection();
@@ -23,6 +24,10 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 app.MapGet("/status", (IStatusReporter reporter) => reporter.GetStatus());
+app.MapGet("/uptime", (IStatusReporter reporter) =>
+{
+    return ((StatusReporter)reporter).GetUptimeInSeconds();
+});
 app.Run();
 
 
